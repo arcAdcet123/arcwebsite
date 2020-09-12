@@ -1,0 +1,41 @@
+body{
+    background-image: url('https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: 100% 100%;
+    
+}
+h1{
+    font-style: italic;
+font-size:2.1rem;
+line-height: 1.4;
+letter-spacing: 0.3rem;
+text-align: center;
+color: white;
+}
+h2{
+font-size: 1.7rem;
+line-height: 1.0;
+letter-spacing: 0.3rem;
+text-align: center;
+color:white;
+}
+.maindiv{
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%,-50%);
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px white;
+	animation: slider 9s infinite linear;
+
+}
+@keyframes slider{
+	0%{background-image: url(arc.jfif);}
+	20%{background-image: url(robot.jpeg);}
+    40%{background-image: url(training\ aurdino.jpeg);}
+	55%{background-image: url(workshop.jpeg);}
+	78%{background-image: url(robodrive.jpeg);}
+	97%{background-image: url(robodrive2.jpeg);}
+}
+
