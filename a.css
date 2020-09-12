@@ -1,10 +1,12 @@
 body{
-    background-color: black;
+    background-image: url('https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: 100% 100%;
 }
 h1{
+    font-style: italic;
 font-size:2.1rem;
 line-height: 1.4;
-letter-spacing: 0.5rem;
+letter-spacing: 0.4rem;
 text-align: center;
 color: white;
 }
@@ -13,7 +15,7 @@ font-size: 1.7rem;
 line-height: 1.0;
 letter-spacing: 0.3rem;
 text-align: center;
-color: skyblue;
+color:white;
 }
 .maindiv{
 	width: 500px;
