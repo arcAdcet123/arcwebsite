@@ -5,6 +5,7 @@ line-height: 1.4;
 letter-spacing: 0.3rem;
 text-align: center;
 color: white;
+text-shadow: 0 0 50px blue;
 }
 h2{
 font-size: 1.7rem;
@@ -12,6 +13,7 @@ line-height: 1.0;
 letter-spacing: 0.3rem;
 text-align: center;
 color:white;
+text-shadow: 0 0 30px red;
 }
 .maindiv{
 	width: 500px;
@@ -33,4 +35,6 @@ color:white;
 	78%{background-image: url(robodrive.jpeg);}
 	97%{background-image: url(robodrive2.jpeg);}
 }
-
+h3{
+	text-shadow: 0 0 30px greenyellow;
+}
