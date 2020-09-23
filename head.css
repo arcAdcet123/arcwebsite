@@ -29,19 +29,14 @@ nav li a:hover{
     padding: 35px 30px;
     transition: 0.5s;
 }
-button{
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
+footer li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+footer li a{
     transition: all 0.5s ease 0s;
 }
-button:hover{
-    background-color: rgba(0, 136, 169, 0.8);
-}
-footer a:hover{
-    background: #24252A;
+footer li a:hover{
     padding: 10px 10px;
     transition: 0.5s;
 }
