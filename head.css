@@ -1,0 +1,47 @@
+li, a, button{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: honeydew;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background: black;
+    
+}
+.logo{
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav li a{
+    transition: all 0.5s ease 0s;
+}
+nav li a:hover{
+    color: greenyellow;
+    background: #24252A;
+    padding: 35px 30px;
+    transition: 0.5s;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+footer a:hover{
+    background: #24252A;
+    padding: 10px 10px;
+    transition: 0.5s;
+}
