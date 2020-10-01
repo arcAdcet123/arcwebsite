@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AchievmentsArc</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="./achievement.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+      <div class="Filler"></div>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning nav-rounded">
+        <img
+          src="/images/arclogo.jpeg"
+          class="img-fluid rounded"
+          alt="Responsive image"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar navbar-nav mr-auto navbar-center">
+            <li class="nav-item">
+              <a class="nav-link" href="/home.html">
+                <svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  class="bi bi-house-door-fill"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+                  /></svg
+                >Home</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/achievement.html"
+                ><svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  class="bi bi-trophy-fill"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z"
+                  /></svg
+                >Achievements</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html"
+                ><svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  class="bi bi-person-fill"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  /></svg
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="dropdown position-fixed dropdown-menu-right">
+        <button
+          class="btn btn-dark  dropdown-toggle btn-lg"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Menu
+        </button>
+        <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="./home.html">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-house-door-fill"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              /></svg
+            >Home</a>
+          <a class="dropdown-item active" href="./achievement.html"
+            ><svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-trophy-fill"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z"
+              /></svg
+            >Achievment</a
+          >
+          <a class="dropdown-item" href="./about.html"
+            ><svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-person-fill"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+              /></svg
+            >About</a
+          >
+        </div>
+      </div>
+
+      <!-- Competition names -->
+      <!-- Electrovita2k19 -->
+      <button
+        type="button"
+        class="btn btn-info btn-block initialBut"
+        data-toggle="collapse"
+        data-target="#ach1"
+      >
+        Electrovita2k19
+      </button>
+      <div id="ach1" class="collapse data">
+        <div class="photo">
+          <img src="/images/wce.jpg" alt="" class="rounded" />
+        </div>
+        <div class="content">
+          Event Name –Elecroveta’19 <br />
+          Venue – WCE, Sangli <br />
+          Venue – WCE, Sangli<br />
+          Level- National<br />
+          Rank – Winner
+          <br />
+          Participants - Pratik Rohane, Saurabh Nimbalkar, Jiganesh Patil
+        </div>
+      </div>
+
+      <!-- MindSpark 15  -->
+      <button
+        type="button"
+        class="btn bg btn-block remain"
+        data-toggle="collapse"
+        data-target="#ach2"
+      >
+        MindSpark 15
+      </button>
+      <div id="ach2" class="collapse data">
+        <div class="photo">
+          <img src="/images/MS18.jpg" alt="" class="rounded" />
+        </div>
+        <div class="content">
+          Event Name- Mind Spark15<br />
+          Venue- COEP,PUNE<br />
+          Level- National Level<br />
+          Rank- Best Design<br />
+          Participants - Sudarshan Admuthe, Prasad Patil, Priyanka Patil,
+          Vishwajeet Khade
+        </div>
+      </div>
+
+      <!-- Rmageddon  -->
+      <button
+        type="button"
+        class="btn btn-info btn-block remain"
+        data-toggle="collapse"
+        data-target="#ach3"
+      >
+      Rmageddon
+      </button>
+      <div id="ach3" class="collapse data">
+        <div class="photo">
+          <img src="/images/robot.jpeg" alt="" class="rounded" />
+        </div>
+        <div class="content">
+            Event Name- RMAGEDDON<br> 
+            Venue-  SGGSIET,Nanded<br>
+            Level- National Level<br>
+            Rank- First Prize<br>
+            Participants - Vishwajeet Khade, Prasad Patil, Snehal Patil, Sayli Nikam
+        </div>
+      </div>
+
+       <!-- Vision 15 -->
+       <button
+       type="button"
+       class="btn bg btn-block remain"
+       data-toggle="collapse"
+       data-target="#ach4"
+     >
+     Vision 15
+     </button>
+     <div id="ach4" class="collapse data">
+       <div class="photo">
+         <img src="/images/Vi19.jpg" alt="" class="rounded" />
+       </div>
+       <div class="content">
+        Event Name- Vision 15<br>
+        Venue-  WCE,Sangli <br>
+        Level- National Level<br>
+        Rank- First Prize<br>
+        Participants - Pratik Kangle, Aniket Bhange, Vishwajeet Khade, Prasad Patil
+    </div>
+     </div>
+
+      <!-- MindSpark 15 -->
+      <button
+      type="button"
+      class="btn btn-info btn-block remain"
+      data-toggle="collapse"
+      data-target="#ach5"
+    >
+    MindSpark 15
+    </button>
+    <div id="ach5" class="collapse data">
+      <div class="photo">
+        <img src="/images/MS18.jpg" alt="" class="rounded" />
+      </div>
+      <div class="content">
+        Event Name- Mind Spark15<br> 
+        Venue-  COEP,PUNE<br>
+        Level- National Level<br>
+        Rank- Second Prize <br>
+        Participants - Vishal Patil, Ajay Patil, Ajinkya Khanderao, Kalyani Pawar
+      </div>
+    </div>
+
+      <!-- Vision 15 -->
+      <button
+      type="button"
+      class="btn bg btn-block remain"
+      data-toggle="collapse"
+      data-target="#ach6"
+    >
+    Vision 15
+    </button>
+    <div id="ach6" class="collapse data">
+      <div class="photo">
+        <img src="/images/Vi19.jpg" alt="" class="rounded" />
+      </div>
+      <div class="content">
+        Event Name- Vision 15<br>
+        Venue-  WCE,Sangli <br>
+        Level- National Level<br>
+        Rank- Second Prize<br>
+        Participants - Ajinkya Khanderao, Kalyani Pawar, Vishwajeet Khade, Prasad Patil
+    </div>
+    </div>
+
+
+     <!--Robocon 16  -->
+     <button
+     type="button"
+     class="btn btn-info btn-block remain"
+     data-toggle="collapse"
+     data-target="#ach7"
+   >
+   Robocon 16 
+   </button>
+   <div id="ach7" class="collapse data">
+     <div class="photo">
+       <img src="/images/Roborav19.jpg" alt="" class="rounded" />
+     </div>
+     <div class="content">
+        Event Name- Robocon 16<br>
+        Venue-  MIT,Pune<br>
+        Level- National Level<br>
+        Rank- 35(ALL INDIA)<br>
+        Participants - Vishwajeet Khade, Sudarshan Admuthe, Prasad Patil, Sayli Nikam, Abhijit Gavde, Snehal Patil, Shamli Pawar, Priyanka Patil, Sauravrnay Sinha, Karn Parmar, Vishal Patil, Ajay Patil, Akshay kumbhar, Kalyani Pawar, Shreyas Jagtap, Komal Patil, Ajinkya Khanderao
+    </div>
+   </div>
+
+
+      <!--RoboraveINDIA 19 -->
+      <button
+      type="button"
+      class="btn bg btn-block remain"
+      data-toggle="collapse"
+      data-target="#ach8"
+    >
+    RoboraveINDIA 19
+    </button>
+    <div id="ach8" class="collapse data">
+      <div class="photo">
+        <img src="/images/Roborav19.jpg" alt="" class="rounded" />
+      </div>
+      <div class="content">
+        Event Name – RoboraveINDIA19<br>
+    Venue – Pune<br>
+Level- International<br>
+Rank – 1st<br>
+Pratik Thorwade, Saurabh Nimbalkar, Atharv Mahanuni, Saurabh Jumnalkar</div>
+    </div>
+
+  <!--RoboraveINDIA 19 -->
+  <button
+  type="button"
+  class="btn btn-info btn-block remain"
+  data-toggle="collapse"
+  data-target="#ach9"
+>
+RoboraveINDIA 19(2)
+</button>
+<div id="ach9" class="collapse data">
+  <div class="photo">
+    <img src="/images/Roborav19.jpg" alt="" class="rounded" />
+  </div>
+  <div class="content">
+    Event Name – RoboraveINDIA 19<br>
+Venue – Pune<br>
+Level- International<br>
+Rank – 2st<br>
+Participants - Pratik Rohane, Ashitosh Koli, Ramesh Yedage, Swatantrya Wadar</div>
+</div>
+
+
+  <!--Vision 19  -->
+  <button
+  type="button"
+  class="btn bg btn-block remain"
+  data-toggle="collapse"
+  data-target="#ach10"
+>
+Vision 19 
+</button>
+<div id="ach10" class="collapse data">
+  <div class="photo">
+    <img src="/images/Vi19.jpg" alt="" class="rounded" />
+  </div>
+  <div class="content">
+    Event Name –Vision’19<br>
+Venue – WCE, Sangli<br>
+Level- National<br>
+Rank – Runner<br>
+Participants - Pratik Rohane, Saurabh Nimbalkar
+</div>
+</div>
+
+
+<!--Mindspark 19  -->
+<button
+type="button"
+class="btn btn-info btn-block remain"
+data-toggle="collapse"
+data-target="#ach11"
+>
+Mindspark 19 
+</button>
+<div id="ach11" class="collapse data">
+<div class="photo">
+  <img src="/images/MS18.jpg" alt="" class="rounded" />
+</div>
+<div class="content">
+    Event Name –MindSpark’19<br>
+    Venue – COE,Pune<br>
+    Level- National<br>
+    Rank – 2nd Runner<br>	
+    Participants - Team_ARC
+</div>
+</div>
+
+
+<footer id="SocialMedial">
+    <img src = "/images/pngwave.png" style = "float : left; border-radius: 75px; " height = "200" width="200"/>
+    <img src = "/images/no3.png" style = "float : right; border-radius: 75px; ;" style = "border-radius : 75px" height = "200" width="200"/>
+    
+  <div class="container">
+    
+      <ul class="well row">
+        <li><img src="/images/email.jpeg "class="col-xs-3 rounded-circle" alt=""></li>
+        <li><img src="/images/fbbb.png " class="col-xs-3 rounded-circle" alt=""></li>
+        <li><img src="/images/gitt.jfif " class="col-xs-3 rounded-circle" alt=""></li>
+        <li><img src="/images/instaaa.webp " class="col-xs-3 rounded-circle" alt=""></li>
+    </ul>
+  
+  </div> 
+  </footer>
+
+
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+.btn.btn-success.btn-block.names.initialBut,
+.btn.btn-success.btn-block.names.remain {
+  font-size: 1.7vw;
+  height: 4.5vw;
+  font-family: "Kanit", sans-serif;
+}
+tr {
+  font-size: 1.3vw;
+  font-family: "Fira Sans", sans-serif;
+}
+@media (max-width: 991px) {
+  .btn.btn-success.btn-block.names.initialBut,
+  .btn.btn-success.btn-block.names.remain {
+    font-size: 2.2vw;
+  }
+  tr {
+    font-size: 2.1vw;
+  }
+}
+.text-center:hover {
+  background-color: rgb(171, 245, 171);
+}
+.Text {
+  font-size: 3vw;
+  font-family: "Courgette", cursive;
+}
