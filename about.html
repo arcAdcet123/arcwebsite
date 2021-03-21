@@ -32,10 +32,34 @@
   crossorigin="anonymous"
 ></script>
 
+<!-- for nav OverLay below -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+crossorigin="anonymous"
+/>
+<script
+src="https://code.jquery.com/jquery-3.5.1.js"
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"
+></script>
+<script>
+$(document).ready(function () {
+  $(".overlay").animate({height:"9.8vw"},"slow")
+  $(".overlay").animate({width:"100%",},"slow")
+  $(".overlay").fadeOut(1200)
+});
+</script>
+<!-- for nav OverLay above -->
+
+
 
 </head>
 <body>
-    <div class="Filler"></div>
+  <div class="overlay bg-danger text-white text-center">ABOUT</div>
+    
+  <div class="Filler"></div>
     <div class="conatiner-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-warning nav-rounded">
             <div class="Text">ARC</div>
@@ -266,16 +290,16 @@ data-target="#about4"><svg width="1em" height="1em" viewBox="0 0 16 16" class="b
 </div>
 
 <footer id="SocialMedial">
-    <img src = "./images/pngwave.png" style = "float : left; border-radius: 75px; " height = "200" width="200"/>
-    <img src = "./images/no3.png" style = "float : right; border-radius: 75px; ;" style = "border-radius : 75px" height = "200" width="200"/>
+    <img src = "/images/pngwave.png" style = "float : left; border-radius: 75px; " height = "200" width="200"/>
+    <img src = "/images/no3.png" style = "float : right; border-radius: 75px; ;" style = "border-radius : 75px" height = "200" width="200"/>
     
   <div class="container">
     
       <ul class="well row">
-        <li><img src="./images/email.jpeg "class="col-xs-3 rounded-circle" alt=""></li>
-        <li><img src="./images/fbbb.png " class="col-xs-3 rounded-circle" alt=""></li>
-        <li><img src="./images/gitt.jfif " class="col-xs-3 rounded-circle" alt=""></li>
-        <li><img src="./images/instaaa.webp " class="col-xs-3 rounded-circle" alt=""></li>
+        <li><img src="/images/email.jpeg "class="col-xs-3 rounded-circle" alt=""></li>
+        <li><img src="/images/fbbb.png " class="col-xs-3 rounded-circle" alt=""></li>
+        <li><img src="/images/gitt.jfif " class="col-xs-3 rounded-circle" alt=""></li>
+        <li><img src="/images/instaaa.webp " class="col-xs-3 rounded-circle" alt=""></li>
     </ul>
   
   </div> 

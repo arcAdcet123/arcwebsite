@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Oswald:wght@500&display=swap');
 
-
+*{
+    margin: 0;
+}
 .navbar-nav.navbar-center { 
     position: absolute; 
     left: 50%; 
@@ -21,19 +23,31 @@ li.nav-item{
 div.carousel.slide{
     z-index:-2;
 }
-.nav-item:hover{
-    background-color:white;
-}
+
 .active{
     font-weight: bolder;
     background-color: white;
     
 }
+.overlay{
+    position: absolute;
+    z-index: 2;
+    font-size: 6.16vw;
+    color: white;
+    margin-top: 0%;
+    border-bottom:2vw #ffc107 solid ;
+    font-family: 'Oswald', sans-serif;
+  }
+
+
 
 @media(min-width:992px){
     .nav-item.active{
-       margin-top: 5vw;
-        height: 8vw;
+       margin-top: 1vw;
+        height: 3vw;
+    }
+    .nav-item:hover{
+       border-bottom: 2px solid white;
     }
 }
 
@@ -66,6 +80,9 @@ div.carousel.slide{
         width: 100%;
         color: black;
     }
+    .nav-item:hover{
+        background-color:white;
+    }
     .active{
         font-weight: bolder;
         background-color: white;
@@ -84,7 +101,7 @@ small{
 blockquote{
     font-size: 3vw;
     font-family: 'Courier Prime', monospace;
-    background-color:rgba(236, 236, 235, 0.952) ;
+  
 }
 .dropdown.position-fixed{
     top: 0vw;
